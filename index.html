@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Table</title>
+  <style>
+    table{
+        border: 1px solid black;
+        border-collapse: collapse;
+        font-size: 20px;
+        margin-top: 5px;
+        margin:auto
+    }
+    td,tr{
+         border: 1px solid black;
+         border-collapse: collapse;
+         padding: 10px;
+         margin:auto
+    }
+    .colour{
+       background-color: cadetblue;
+    }
+  </style>
+</head>
+<body>
+<table>
+    <tr>
+        <td colspan="3" class="colour">Invoice #12345ABC</td>
+        <td colspan="2" class="colour">18 July 2019</td>
+    </tr>
+    <tr>
+        <td colspan="2">
+        <div>
+            <p>
+                <pre>
+                    Pay to:
+                    The tech park
+                    123 Willow street
+                    bourlevad
+                </pre>
+            </p>
+        </div>
+        </td>
+        <td colspan="2">
+        <div>
+            <p>
+                <pre>
+                    Customer:
+                    John Lark
+                    Dummy Apartmeent
+                    276,Main street
+                    bourlevad
+                </pre>
+            </p>
+        </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="colour"> Name/Description</td>
+        <td class="colour">Qty</td>
+        <td class="colour">MRP</td>
+        <td class="colour"> Amount</td>
+    </tr>
+    <tr>
+        <td> Biryani</td>
+        <td> 3</td>
+        <td> 400</td>
+        <td> 1200</td>
+    </tr>
+    <tr>
+        <td> Chocolate shake</td>
+        <td> 3</td>
+        <td> 200</td>
+        <td> 600</td>
+    </tr>
+    <tr>
+        <td colspan="3" class="colour"> Subtotal</td>
+        <td> 1800</td>
+    </tr>
+    <tr> 
+        <td colspan="2" class="colour"> Tax</td>
+        <td> 10%</td>
+        <td> 180</td>
+
+    </tr>
+    <tr> 
+        <td colspan="3" class="colour"> Grand Total</td>
+        <td> Rs 1620</td>
+    </tr>
+</table>
+</body>
+</html>
